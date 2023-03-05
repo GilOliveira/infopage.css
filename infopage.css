@@ -1,0 +1,47 @@
+/* SDPX-License-Identifier: 0BSD */
+
+/*
+infopage.css - v0.0.1
+(C) 2022-2023 Gil Poiares-Oliveira
+*/
+
+:root {
+  --font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  max-width: 600px;
+  margin: auto;
+  color: white;
+  background-color: #121212;
+}
+
+header {
+  margin-top: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: underline dotted;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 2rem;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
