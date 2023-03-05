@@ -1,7 +1,7 @@
 /* SDPX-License-Identifier: 0BSD */
 
 /*
-infopage.css - v0.0.1
+infopage.css - v0.0.2
 (C) 2022-2023 Gil Poiares-Oliveira
 */
 
@@ -35,7 +35,12 @@ h4 {
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: white
+    background-color: white;
+    color: black;
+  }
+
+  a {
+    color: black;
   }
 }
 
